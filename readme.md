@@ -8,6 +8,12 @@
       {YOUR_AWESOME_CHILDREN}
     </CardSilder>
 
+## onPositionChanged (new)
+
+    <CardSilder onPositionChanged={position => console.log('New position: ', position)}>
+      {YOUR_AWESOME_CHILDREN}
+    </CardSilder>
+
 ## Usage
 
     npm i react-native-cards-slider --save
